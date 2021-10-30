@@ -3,3 +3,5 @@ function showTime(){
   
   document.getElementById("time").innerText = date;
 }
+
+showtime();
