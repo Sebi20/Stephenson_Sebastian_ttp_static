@@ -3,14 +3,26 @@
 <head>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<script type="text/javascript" src = "index.js"></script>
+	<link rel="stylesheet" href="index.css">
+	
 	<title>TTP webpage</title>
+
 </head>
 <body>
 
-	<h1>My name is Sebastian and my favorite hobby is walking.</h1>
-	
-	<div id = "time" onload = "showTime()"></div>
+	<div id= "top">
+
+		<div class="left"><h1 style="font: bold">My name is Sebastian and my favorite hobby is walking.</h1></div>
+		
+		
+		
+		<div class= "right">
+			<h1>The current time is:</h1>
+			<button><div id = 'time' onload ='showTime()'></div></button>
+		</div>
+	</div>
+
 
 </body>
+<script type="text/javascript" src = "index.js"></script>
 </html>
