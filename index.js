@@ -32,7 +32,9 @@ function showTime(){
 
   if(hours > 12){
   	hours = hours - 12;
-  }// This gets rid of the military time
+  }else if(hours == 0){
+  	hours = 12;
+  }// This handles the miltary time problem that comes with the date class
 
   let time = `${hours}:${mins}:${secs} ${pmORam}`;
 
