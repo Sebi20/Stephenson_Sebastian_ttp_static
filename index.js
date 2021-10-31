@@ -30,7 +30,7 @@ function showTime(){
   }
   //---------------------------//
 
-  if(hours => 13){
+  if(hours > 12){
   	hours = hours - 12;
   }// This gets rid of the military time
 
